@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   app:
-    container_name: Watchlists
+    container_name: Demo-draft-js-editor
     build:
       context: .
       dockerfile: Dockerfile
