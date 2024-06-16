@@ -1,0 +1,30 @@
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.editor-container {
+  border: 2px solid #85c5f6;
+  padding: 10px;
+  min-height: 400px;
+  border-radius: 4px;
+  transition: all 0.4s;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+.editor-container:focus-within {
+  box-shadow: 10px 10px 10px rgb(50, 50, 50);
+}
+
+.header-title {
+  align-self: center;
+}
+
+pre {
+  background-color: rgb(245, 243, 242);
+  padding: 0px 4px;
+  border-radius: 4px;
+  max-width: fit-content;
+}

@@ -1,0 +1,28 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  border: 2px solid #888;
+  background-color: white;
+  padding: 6px 15px;
+  box-shadow: 8px 5px 5px rgb(50, 50, 50);
+  transition: all 0.4s;
+  cursor: pointer;
+}
+button:hover {
+  box-shadow: 8px 8px 5px rgb(50, 50, 50);
+  transition: all 0.4s;
+}
+button:active {
+  box-shadow: 2px 2px 2px rgb(50, 50, 50);
+  background-color: #d8d5d5;
+}
